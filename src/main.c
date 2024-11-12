@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
 		printf("%lf",r);
 	}
 	else if (strcmp(op, "sqr") == 0) {
-		r = _qr(atof(a));
+		r = _sqr(atof(a));
 		printf("%lf",r);
 	}
 	else {printf("Erreur de parametres");}
