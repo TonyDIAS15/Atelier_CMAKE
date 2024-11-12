@@ -1,5 +1,8 @@
 name: Automatisation des tests
-on: push
+on:
+  push:
+    branches:
+      - main
 jobs:
   Compilation:
     runs-on: ubuntu-latest
