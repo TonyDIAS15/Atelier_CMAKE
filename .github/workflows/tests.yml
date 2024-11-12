@@ -89,4 +89,3 @@ jobs:
           cmake ..
           make
           ./src/calculator sqr 5
-
